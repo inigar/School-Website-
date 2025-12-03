@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Global School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo-area">
+                <img src="logo.png" alt="School Logo" class="logo">
+                <span class="school-name">THE GLOBAL SCHOOL</span>
+            </div>
+
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#leadership">Leadership</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Welcome to The Global School</h1>
+            <p>ज्ञानाधीनम् जगत् सर्वम्</p>
+            <button onclick="scrollToAbout()">Explore More</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <h2>About Our School</h2>
+        <p>
+            The Global School provides quality education with a global vision,
+            shaping students to become responsible and successful citizens.
+        </p>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses section">
+        <h2>Our Courses</h2>
+
+        <div class="course-box">
+            <div class="course-card">
+                <h3>Science</h3>
+                <p>Physics • Chemistry • Biology</p>
+            </div>
+
+            <div class="course-card">
+                <h3>Commerce</h3>
+                <p>Accounts • Business • Economics</p>
+            </div>
+
+            <div class="course-card">
+                <h3>Arts</h3>
+                <p>History • Civics • Geography</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="leadership section">
+        <h2>Our Leadership</h2>
+
+        <div class="leader-box">
+
+            <div class="leader-card">
+                <img src="principal.jpg" alt="Principal">
+                <h3>Mr. ________</h3>
+                <p>Principal</p>
+            </div>
+
+            <div class="leader-card">
+                <img src="chairman.jpg" alt="Chairman">
+                <h3>Mr. ________</h3>
+                <p>Chairman</p>
+            </div>
+
+            <div class="leader-card">
+                <img src="dean.jpg" alt="Dean">
+                <h3>Mr. ________</h3>
+                <p>Dean</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+        <h2>Gallery</h2>
+
+        <div class="gallery-container">
+            <img src="https://picsum.photos/300?1" alt="">
+            <img src="https://picsum.photos/300?2" alt="">
+            <img src="https://picsum.photos/300?3" alt="">
+            <img src="https://picsum.photos/300?4" alt="">
+            <img src="https://picsum.photos/300?5" alt="">
+            <img src="https://picsum.photos/300?6" alt="">
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact section">
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Contact Details</h3>
+        <p>Email: theglobalschool@gmail.com</p>
+        <p>Phone: +91 9876543210</p>
+        <p>Address: The Global School, Near City Center, Bhopal, Madhya Pradesh</p>
+        <p class="copy">© 2025 The Global School | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
